@@ -1,0 +1,81 @@
+[05-Nov-2022 17:04:36 Africa/Brazzaville] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/html/InterviewTestPrep/HMS-PDO/includes/header.php on line 2
+[05-Nov-2022 17:04:36 Africa/Brazzaville] PHP Notice:  Constant DB_HOST already defined in /var/www/html/InterviewTestPrep/HMS-PDO/classes/config.php on line 7
+[05-Nov-2022 17:04:36 Africa/Brazzaville] PHP Notice:  Constant DB_USER already defined in /var/www/html/InterviewTestPrep/HMS-PDO/classes/config.php on line 8
+[05-Nov-2022 17:04:36 Africa/Brazzaville] PHP Notice:  Constant DB_PASS already defined in /var/www/html/InterviewTestPrep/HMS-PDO/classes/config.php on line 9
+[05-Nov-2022 17:04:36 Africa/Brazzaville] PHP Notice:  Constant DB_NAME already defined in /var/www/html/InterviewTestPrep/HMS-PDO/classes/config.php on line 10
+[05-Nov-2022 17:04:36 Africa/Brazzaville] PHP Fatal error:  Cannot redeclare check_user_verify_status() (previously declared in /var/www/html/InterviewTestPrep/HMS-PDO/classes/functions.php:165) in /var/www/html/InterviewTestPrep/HMS-PDO/classes/functions.php on line 165
+[05-Nov-2022 17:25:37 Africa/Brazzaville] PHP Notice:  Undefined variable: row in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 179
+[05-Nov-2022 17:33:26 Africa/Brazzaville] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/InterviewTestPrep/HMS-PDO/includes/header.php:11) in /var/www/html/InterviewTestPrep/HMS-PDO/classes/DB.php on line 216
+[05-Nov-2022 17:33:38 Africa/Brazzaville] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/InterviewTestPrep/HMS-PDO/includes/header.php:11) in /var/www/html/InterviewTestPrep/HMS-PDO/classes/DB.php on line 216
+[05-Nov-2022 17:39:06 Africa/Brazzaville] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' [006]' at line 1 in /var/www/html/InterviewTestPrep/HMS-PDO/classes/DB.php:38
+Stack trace:
+#0 /var/www/html/InterviewTestPrep/HMS-PDO/classes/DB.php(38): PDO->prepare('SELECT * FROM R...')
+#1 /var/www/html/InterviewTestPrep/HMS-PDO/booking.php(168): DB->query('SELECT * FROM R...')
+#2 {main}
+  thrown in /var/www/html/InterviewTestPrep/HMS-PDO/classes/DB.php on line 38
+[05-Nov-2022 17:39:15 Africa/Brazzaville] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' [006]' at line 1 in /var/www/html/InterviewTestPrep/HMS-PDO/classes/DB.php:38
+Stack trace:
+#0 /var/www/html/InterviewTestPrep/HMS-PDO/classes/DB.php(38): PDO->prepare('SELECT * FROM R...')
+#1 /var/www/html/InterviewTestPrep/HMS-PDO/booking.php(168): DB->query('SELECT * FROM R...')
+#2 {main}
+  thrown in /var/www/html/InterviewTestPrep/HMS-PDO/classes/DB.php on line 38
+[05-Nov-2022 17:42:48 Africa/Brazzaville] PHP Notice:  Undefined variable: row in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 183
+[05-Nov-2022 17:46:59 Africa/Brazzaville] PHP Notice:  Undefined variable: row in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 183
+[05-Nov-2022 18:18:22 Africa/Brazzaville] PHP Notice:  Undefined variable: row in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 193
+[05-Nov-2022 18:18:22 Africa/Brazzaville] PHP Notice:  Undefined variable: row in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 196
+[05-Nov-2022 18:18:22 Africa/Brazzaville] PHP Notice:  Undefined variable: row in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 201
+[05-Nov-2022 19:20:48 Africa/Brazzaville] PHP Notice:  Undefined variable: row in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 195
+[05-Nov-2022 19:20:48 Africa/Brazzaville] PHP Notice:  Undefined variable: row in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 198
+[05-Nov-2022 19:20:48 Africa/Brazzaville] PHP Notice:  Undefined variable: row in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 203
+[05-Nov-2022 19:21:03 Africa/Brazzaville] PHP Notice:  Undefined variable: row in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 195
+[05-Nov-2022 19:21:03 Africa/Brazzaville] PHP Notice:  Undefined variable: row in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 198
+[05-Nov-2022 19:21:03 Africa/Brazzaville] PHP Notice:  Undefined variable: row in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 203
+[05-Nov-2022 19:22:43 Africa/Brazzaville] PHP Notice:  Undefined variable: row in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 195
+[05-Nov-2022 19:22:43 Africa/Brazzaville] PHP Notice:  Undefined variable: row in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 198
+[05-Nov-2022 19:22:43 Africa/Brazzaville] PHP Notice:  Undefined variable: row in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 203
+[05-Nov-2022 20:24:21 Africa/Brazzaville] PHP Notice:  Undefined variable: user_id in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 4
+[05-Nov-2022 20:58:36 Africa/Brazzaville] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1140 In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'luxuryHotel.booking_cart.id'; this is incompatible with sql_mode=only_full_group_by in /var/www/html/InterviewTestPrep/HMS-PDO/classes/DB.php:38
+Stack trace:
+#0 /var/www/html/InterviewTestPrep/HMS-PDO/classes/DB.php(38): PDO->prepare('SELECT *, COUNT...')
+#1 /var/www/html/InterviewTestPrep/HMS-PDO/booking.php(23): DB->query('SELECT *, COUNT...', Array)
+#2 {main}
+  thrown in /var/www/html/InterviewTestPrep/HMS-PDO/classes/DB.php on line 38
+[05-Nov-2022 21:18:43 Africa/Brazzaville] PHP Notice:  Undefined index: roomNo in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 17
+[05-Nov-2022 21:18:43 Africa/Brazzaville] PHP Notice:  Undefined index: roomType in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 18
+[05-Nov-2022 21:18:43 Africa/Brazzaville] PHP Notice:  Undefined index: price in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 19
+[05-Nov-2022 21:18:43 Africa/Brazzaville] PHP Notice:  Undefined index: quantity in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 20
+[05-Nov-2022 21:18:43 Africa/Brazzaville] PHP Fatal error:  Uncaught Error: Call to undefined method DB::numrows() in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php:26
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 26
+[05-Nov-2022 21:19:04 Africa/Brazzaville] PHP Fatal error:  Uncaught Error: Call to undefined method DB::numrows() in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php:26
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 26
+[05-Nov-2022 21:19:45 Africa/Brazzaville] PHP Notice:  Undefined index: roomNo in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 17
+[05-Nov-2022 21:19:45 Africa/Brazzaville] PHP Notice:  Undefined index: roomType in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 18
+[05-Nov-2022 21:19:45 Africa/Brazzaville] PHP Notice:  Undefined index: price in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 19
+[05-Nov-2022 21:19:45 Africa/Brazzaville] PHP Notice:  Undefined index: quantity in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 20
+[05-Nov-2022 21:22:15 Africa/Brazzaville] PHP Notice:  Undefined index: roomNo in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 14
+[05-Nov-2022 21:22:15 Africa/Brazzaville] PHP Notice:  Undefined index: roomType in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 15
+[05-Nov-2022 21:22:15 Africa/Brazzaville] PHP Notice:  Undefined index: price in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 16
+[05-Nov-2022 21:22:15 Africa/Brazzaville] PHP Notice:  Undefined index: quantity in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 17
+[05-Nov-2022 21:22:39 Africa/Brazzaville] PHP Notice:  Undefined index: roomNo in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 14
+[05-Nov-2022 21:22:39 Africa/Brazzaville] PHP Notice:  Undefined index: roomType in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 15
+[05-Nov-2022 21:22:39 Africa/Brazzaville] PHP Notice:  Undefined index: price in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 16
+[05-Nov-2022 21:22:39 Africa/Brazzaville] PHP Notice:  Undefined index: quantity in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 17
+[05-Nov-2022 21:38:42 Africa/Brazzaville] PHP Notice:  Undefined index: roomNo in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 14
+[05-Nov-2022 21:38:42 Africa/Brazzaville] PHP Notice:  Undefined index: roomType in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 15
+[05-Nov-2022 21:38:42 Africa/Brazzaville] PHP Notice:  Undefined index: price in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 16
+[05-Nov-2022 21:38:42 Africa/Brazzaville] PHP Notice:  Undefined index: quantity in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 17
+[05-Nov-2022 21:44:25 Africa/Brazzaville] PHP Notice:  Undefined index: roomType in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 15
+[05-Nov-2022 21:44:25 Africa/Brazzaville] PHP Notice:  Undefined index: price in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 16
+[05-Nov-2022 21:47:26 Africa/Brazzaville] PHP Notice:  Undefined index: roomNo in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 14
+[05-Nov-2022 21:47:26 Africa/Brazzaville] PHP Notice:  Undefined index: quantity in /var/www/html/InterviewTestPrep/HMS-PDO/booking.php on line 17
+[05-Nov-2022 22:13:12 Africa/Brazzaville] PHP Notice:  Undefined variable: quantity in /var/www/html/InterviewTestPrep/HMS-PDO/view.php on line 15
+[05-Nov-2022 22:13:12 Africa/Brazzaville] PHP Notice:  Undefined variable: price in /var/www/html/InterviewTestPrep/HMS-PDO/view.php on line 16
+[05-Nov-2022 22:13:26 Africa/Brazzaville] PHP Notice:  Undefined variable: quantity in /var/www/html/InterviewTestPrep/HMS-PDO/view.php on line 15
+[05-Nov-2022 22:13:26 Africa/Brazzaville] PHP Notice:  Undefined variable: price in /var/www/html/InterviewTestPrep/HMS-PDO/view.php on line 16
+[05-Nov-2022 22:16:34 Africa/Brazzaville] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/InterviewTestPrep/HMS-PDO/includes/header.php:11) in /var/www/html/InterviewTestPrep/HMS-PDO/view.php on line 22
+[05-Nov-2022 22:16:42 Africa/Brazzaville] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/InterviewTestPrep/HMS-PDO/includes/header.php:11) in /var/www/html/InterviewTestPrep/HMS-PDO/view.php on line 32
+[05-Nov-2022 22:18:33 Africa/Brazzaville] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/InterviewTestPrep/HMS-PDO/includes/header.php:11) in /var/www/html/InterviewTestPrep/HMS-PDO/view.php on line 32

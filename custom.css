@@ -1,0 +1,205 @@
+body {
+    margin: 0px;
+}
+.logotxt{
+        color:white;
+        font-size:28px;
+        font-weight:300;
+        float:right;
+    }
+    @media (min-width: 399px) {
+         .logotxt{
+        color:white;
+        font-size:28px;
+        font-weight:300;
+        float:left;
+    }
+}
+
+/*== Header Top CSS Start ==*/
+
+#header-area,
+#header-area a {
+    color: #fff;
+}
+
+#header-top {
+    background-color: #1e2228;
+    padding: 8px 0;
+}
+
+#header-top i {
+    color: #ffd000;
+    font-size: 15px;
+    margin-right: 2px;
+}
+
+#header-area .header-social-icons a i.fa {
+    color: #fff;
+    font-size: 15px;
+    margin-left: 10px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+#header-area .header-social-icons a:hover i.fa,
+#header-area .mainmenu ul li.active a,
+#header-area .mainmenu ul li:hover a {
+    color: #ffd000;
+}
+
+header.fixTotop #header-top {
+    display: none !important;
+}
+
+/*== Header Top CSS End ==*/
+
+/*== Header Bottom CSS Start ==*/
+
+#header-bottom {
+    background-color: rgba(09,41,98,0.9);
+    padding: 15px 0;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+header.fixTotop #header-bottom {
+    background-color: rgba(0, 0, 0, 1);
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+.title {
+    color:#000; 
+    font-size: 44px; 
+    font-weight: bold; 
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+ul.timeline {
+list-style-type: none !important;
+position: relative;
+}
+p,ul.timeline{
+    padding: 0 0 0 15px;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+@media (max-width: 399px) {
+.mid-button {
+    margin: 0 auto;
+}
+.button-small-solid{
+    position: absolute;
+    left:22%;
+    top: 100%;
+    margin-top: 10px !important;
+}
+}
+/* === rooms === */
+.gallery
+{
+    display: inline-block;
+    margin-top: 20px;
+}
+.btnDiv {
+    position: absolute;
+    z-index: 1;
+    left: 40%;
+    top: 60%;
+}
+.detailBtn {
+    margin-top: 4rem;
+    padding: 15px;
+    border: 1px solid var(--border-color);
+    border-radius: 100rem;
+    color: #fff;
+    background: rgba(09,41,98,0.9);
+    font-size: 15px;
+    font-family: inherit;
+    letter-spacing: .2rem;
+    transition: .2s;
+}
+.viewdetailBtn {
+    margin-top: 2rem;
+    padding: 15px;
+    border: 1px solid var(--border-color);
+    border-radius: 100rem;
+    color: #fff;
+    background: rgba(09,41,98,0.9);
+    font-size: 15px;
+    font-family: inherit;
+    letter-spacing: .2rem;
+    transition: .2s;
+}
+.sliderBtn {
+    margin-top: 4rem;
+    padding: 25px;
+    border: 1px solid var(--border-color);
+    border-radius: 100rem;
+    color: #fff;
+    background: rgba(09,41,98,0.9);
+    font-size: 26px;
+    font-weight: bold;
+    font-family: inherit;
+    letter-spacing: .2rem;
+    transition: .2s;
+}
+@media (max-width: 399px) {
+.btnDiv {
+    margin: 0 auto;
+    position: absolute;
+    z-index: 1;
+    left: 30%;
+    top: 30%;
+}
+.detailBtn {
+    margin-top: 4rem;
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 100rem;
+    color: #fff;
+    background: rgba(09,41,98,0.9);
+    font-size: 12px;
+    font-family: inherit;
+    letter-spacing: .2rem;
+    transition: .2s;
+    
+}
+.viewdetailBtn {
+    margin-top: 2rem;
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 100rem;
+    color: #fff;
+    background: rgba(09,41,98,0.9);
+    font-size: 12px;
+    font-family: inherit;
+    letter-spacing: .2rem;
+    transition: .2s;
+    
+}
+}

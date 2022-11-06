@@ -1,0 +1,397 @@
+  
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 90px 0 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+    z-index: 99;
+  }
+  
+  @media (max-width: 767.98px) {
+    .sidebar {
+      top: 11.5rem;
+      padding: 0;
+    }
+  }
+  
+  .navbar {
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .1);
+  }
+  
+  @media (min-width: 767.98px) {
+    .navbar {
+      top: 0;
+      position: sticky;
+      z-index: 999;
+    }
+  }
+  
+  .sidebar .nav-link {
+    color: #333;
+  }
+  
+  .sidebar .nav-link.active {
+    color: #001c71;/* #0d6efd; */
+  }
+  .navbar-custom{
+    background-color: #001c71 !important; 
+  }
+  .navbar-custom span{
+    color: white;
+  }
+  .navbar-custom span .header-wallet-ico {
+    font-size: 30px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: #ccc;
+}
+.navbar-custom .balance span{
+  font-size: 30px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: #ccc;
+}
+/* Set the border color to the desired color */
+.custom-toggler.navbar-toggler {
+	border-color: white;
+}
+.custom-toggler .navbar-toggler-icon {
+  color: white;
+}
+/* invoice css */
+/* remove theme pupup css */
+.remove-theme-popup .modal-dialog {
+  max-width: 420px;
+}
+.remove-theme-popup .modal-body {
+  padding: 40px 20px 0px;
+  text-align: center;
+}
+.remove-theme-popup .close {
+  color: #666 !important;
+  float: none;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 18px;
+  outline: 0;
+}
+.remove-popup h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0px 0px 40px;
+}
+.remove-popuo-btn .remove-btn {
+  width: 50%;
+  float: left;
+  display: block;
+  border: 0px;
+  background-color: #ff0000;
+  padding: 12px 15px;
+  cursor: pointer;
+  outline: 0;
+  color: #fff;
+  font-size: 16px;
+}
+.remove-popuo-btn .cancel-btn {
+  background-color: #eee;
+  color: #222;
+}
+.remove-popuo-btn {
+  margin: 0px -20px;
+}
+.modal .modal-dialog {
+  margin: 15px auto 0px;
+}
+
+
+
+/*toast css over*/
+.theme-btn {
+  background-color: #001c71;
+  border: 1px solid #001c71;
+  padding: 10px 30px;
+  color: #fff;
+  outline: 0;
+  font-size: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: 0 !important;
+}
+.theme-btn:hover {
+  opacity: .8;
+}
+
+
+.wallet-transaction {
+  background-color: #fff;
+  border-radius: 15px 15px;
+  padding: 30px 30px;
+  box-shadow: 0px 0px 8px #eee;
+}
+.wallet-transaction-box .wallet-transaction-ico {
+  height: 40px;
+  width: 40px;
+  background-color: #001c71;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  border-radius: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.wallet-transaction-box .wallet-transaction-ico > i {
+  line-height: 40px;
+}
+.wallet-transaction-box {
+  position: relative;
+  padding-left: 52px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.wallet-transaction-box:last-child{
+  border-bottom: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.wallet-transaction-box .wallet-transaction-name h3,
+.wallet-transaction-balance h3 {
+  font-size: 16px;
+  color: #001c71;
+  margin: 0px 0px;
+  text-align: center;
+}
+.wallet-transaction-box .wallet-transaction-name span,
+.wallet-transaction-balance span {
+  font-size: 13px;
+  color: #666;
+  display: block;
+  text-align: center;
+}
+.wallet-transaction-box .wallet-transaction-name {
+  float: left;
+  text-align:center;
+}
+.wallet-transaction-box .wallet-transaction-balance {
+  float: right;
+}
+.wallet-transaction-box .wallet-transaction-ico.wallet-Withdrawal {
+  background-color: #87d682;
+}
+.wallet-transaction-box .wallet-transaction-ico.wallet-sync {
+  background-color: #7ad9e3;
+}
+
+.wallet-transaction {
+  background-color: #fff;
+  border-radius: 15px 15px;
+  padding: 30px 30px;
+  box-shadow: 0px 0px 8px #eee;
+}
+.wallet-transaction-box .wallet-transaction-ico {
+  height: 40px;
+  width: 40px;
+  background-color: #001c71;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  border-radius: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.wallet-transaction-box .wallet-transaction-ico > i {
+  line-height: 40px;
+}
+.wallet-transaction-box {
+  position: relative;
+  padding-left: 52px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.wallet-transaction-box:last-child{
+  border-bottom: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.wallet-transaction-box .wallet-transaction-name h3,
+.wallet-transaction-balance h3 {
+  font-size: 16px;
+  color: #001c71;
+  margin: 0px 0px;
+  text-align: center;
+}
+.wallet-transaction-box .wallet-transaction-name span,
+.wallet-transaction-balance span {
+  font-size: 13px;
+  color: #666;
+  display: block;
+  text-align: center;
+}
+.wallet-transaction-box .wallet-transaction-name {
+  float: left;
+  text-align:center;
+}
+.wallet-transaction-box .wallet-transaction-balance {
+  float: right;
+}
+.wallet-transaction-box .wallet-transaction-ico.wallet-Withdrawal {
+  background-color: #87d682;
+}
+.wallet-transaction-box .wallet-transaction-ico.wallet-sync {
+  background-color: #7ad9e3;
+}
+
+
+
+.wallet-bradcrumb {
+  padding: 20px 30px;
+}
+.wallet-bradcrumb h2 {
+  font-size: 20px;
+  margin: 0px;
+  color: #003595;
+}
+.wallet-bradcrumb h2 > i {
+  margin-right: 6px;
+}
+.transfer-coin-input {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+
+
+.transfer-coin-input .input-two > i,
+.transfer-coin-input.transfer-coin-select > i {
+  font-size: 18px;
+  color: #666;
+  position: absolute;
+  bottom: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.transfer-coin-input .input-two {
+  margin: 0px -20px 25px;
+  position: relative;
+}
+.transfer-coin-input .input-two .input-two-box {
+  width: calc(50% - 40px);
+  margin: 0px 20px;
+  float: left;
+  position: relative;
+}
+.transfer-coin-input .input-two .input-two-box span {
+  font-size: 15px;
+  color: #666;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+}
+.transfer-coin-input .input-two .input-two-box input {
+  padding: 10px 56px 10px 15px;
+}
+.transfer-coin-input label {
+  font-size: 14px;
+  display: block;
+  margin: 0px 0px 4px;
+  font-weight: 500;
+  color: #001c71;
+}
+.transfer-coin-input input {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #eee;
+  box-shadow: 0px 0px 8px #eee;
+  padding: 12px 15px;
+  outline: 0;
+  border-radius: 6px;
+  font-size: 15px;
+  color: #444;
+}
+.transfer-coin-input.transfer-coin-select {
+  margin: 0px -15px 20px;
+}
+.transfer-coin-input .dropdown {
+  width: calc(50% - 40px);
+  background-color: #fff;
+  border: 1px solid #eee;
+  box-shadow: 0px 0px 8px #eee;
+  padding: 12px 15px;
+  outline: 0;
+  border-radius: 6px;
+  color: #001c71;
+  font-size: 15px;
+  margin: 0px 20px;
+  float: left;
+  cursor: pointer;
+}
+.transfer-coin-input .dropdown .select {
+  cursor: pointer;
+  display: block;
+}
+.transfer-coin-input .dropdown .select span img,
+.transfer-coin-input .dropdown .dropdown-menu li img {
+  max-width: 20px;
+  vertical-align: text-bottom;
+  margin-right: 4px;
+}
+.transfer-coin-input .dropdown .select > i {
+  font-size: 13px;
+  color: #888;
+  cursor: pointer;
+  float: right;
+  line-height: 20px
+}
+.transfer-coin-input .dropdown.active .select > i {
+  transform: rotate(-90deg)
+}
+.transfer-coin-input .dropdown .dropdown-menu {
+  position: absolute;
+  background-color: #fff;
+  width: 100%;
+  left: 0;
+  margin-top: 4px;
+  border: 1px solid #eee;
+  box-shadow: 0px 0px 8px #eee;
+  overflow: hidden;
+  display: none;
+  max-height: 260px;
+  overflow-y: auto;
+  z-index: 9;
+  border-radius: 6px;
+}
+.transfer-coin-input .dropdown .dropdown-menu li {
+  padding: 10px 15px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+} 
+.transfer-coin-input .dropdown .dropdown-menu {
+  padding: 0;
+  list-style: none
+}
+.transfer-coin-input .dropdown .dropdown-menu li:last-child{
+  border-bottom: 0px;
+}
+.transfer-coin-input .dropdown .dropdown-menu li:hover {
+  background-color: #f2f2f2
+}
+.transfer-coin-input .dropdown .dropdown-menu li:active {
+  background-color: #e2e2e2
+}
+.transfer-coin-button .theme-btn {
+  width: 75%;
+  margin: 0px auto;
+  display: block;
+}
+
+
