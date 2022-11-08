@@ -1,7 +1,7 @@
 ﻿<?php
 session_start();
-include "../classes/config.php";
-include "../classes/functions.php";
+include "../config/config.php";
+include "../config/functions.php";
 if($db->is_logged_in()!="")
 {
     $db->redirect('../');

@@ -4,8 +4,8 @@ error_reporting(E_ALL);
 ini_set('error_log', 'error.log');
 set_error_handler("var_dump");
 session_start();
-include('../classes/connect_db.php');
-include('../classes/functions.php');
+include('../config/connect_db.php');
+include('../config/functions.php');
 if(!isset($_SESSION['userRole'])){
     header('Location: ../index.php');
 }
